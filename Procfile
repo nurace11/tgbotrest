@@ -1,1 +1,1 @@
-web: java -Dserver.port=${PORT:8080} -jar target/telegramWithSpringTwo-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/telegramWithSpringTwo-0.0.1-SNAPSHOT.jar
