@@ -1,1 +1,1 @@
-worker: java -jar target/telegramWithSpringTwo-0.0.1-SNAPSHOT.jar
+worker: java -Dserver.port=${PORT:8080} $JAVA_OPTS -jar target/telegramWithSpringTwo-0.0.1-SNAPSHOT.jar
